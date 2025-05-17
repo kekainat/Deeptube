@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Загрузить видео - Deep Tube</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="../images/logo.png">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="../images/logo.png" alt="Deep Tube Logo" class="logo">
+            <h1>Deep Tube</h1>
+        </div>
+        <div class="user-actions">
+            <button onclick="location.href='../index.html'">На главную</button>
+        </div>
+    </header>
+
+    <main class="upload-container">
+        <h2>Загрузить новое видео</h2>
+        <form id="upload-form">
+            <div class="form-group">
+                <label for="video-title">Название видео:</label>
+                <input type="text" id="video-title" required>
+            </div>
+            <div class="form-group">
+                <label for="video-desc">Описание:</label>
+                <textarea id="video-desc" rows="4"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="video-file">Видеофайл:</label>
+                <input type="file" id="video-file" accept="video/*" required>
+            </div>
+            <div class="form-group">
+                <label for="thumbnail">Превью (необязательно):</label>
+                <input type="file" id="thumbnail" accept="image/*">
+            </div>
+            <button type="submit" id="upload-submit">Загрузить</button>
+        </form>
+        <div id="upload-status"></div>
+    </main>
+
+    <footer>
+        <p>© 2023 Deep Tube. Упрощенная версия YouTube.</p>
+    </footer>
+
+    <script src="../js/upload.js"></script>
+</body>
+</html>
