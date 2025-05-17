@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Tube - Видеохостинг</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/logo.png">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="images/logo.png" alt="Deep Tube Logo" class="logo">
+        
+    <h1>Deep Tube</h1>
+        </div>
+        <div class="search-container">
+            <input type="text" placeholder="Поиск..." id="search-input">
+            <button id="search-btn">Поиск</button>
+        </div>
+        <div class="user-actions">
+            <button id="upload-btn" onclick="location.href='upload.html'">Загрузить</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="video-grid" id="video-container">
+            <!-- Видео будут загружены через JS -->
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2023 Deep Tube. Упрощенная версия YouTube.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
