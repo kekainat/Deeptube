@@ -1,0 +1,19 @@
+[
+    {
+        "id": "vid_abc123",
+        "title": "Пример видео",
+        "description": "Это тестовое видео для демонстрации Deep Tube",
+        "fileName": "vid_abc123.mp4",
+        "uploadDate": "2023-11-15",
+        "views": 42,
+        "thumbnail": "data:image/jpeg;base64,..."
+    },
+    {
+        "id": "vid_def456",
+        "title": "Второе тестовое видео",
+        "description": "Еще одно видео для демонстрации",
+        "fileName": "vid_def456.mp4",
+        "uploadDate": "2023-11-16",
+        "views": 15
+    }
+]
